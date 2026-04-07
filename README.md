@@ -31,6 +31,7 @@ This project automates the Hand Hygiene compliance audit workflow — from data 
 |------|-------------|
 | `hand_hygiene_cleaning.ipynb` | Google Colab notebook — the Python cleaning script |
 | `Hand Hygiene Dashboard.pbix` | Power BI Dashboard file |
+| `jan.xlsx` | Combined audit data (connected to Power BI) |
 
 ## Tools Used
 - **SmartSheet** — Data collection from staff
