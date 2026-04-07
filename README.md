@@ -42,7 +42,7 @@ This project automates the Hand Hygiene compliance audit workflow — from data 
 [Click here to access the SmartSheet](https://app.smartsheet.com/b/form/019c89d7741278a4be147bf18af4e68b)
 
 ## Power BI Dashboard
-[Click here to view the Dashboard](PASTE YOUR POWER BI LINK HERE)
+[Click here to view the Dashboard](https://seuedu-my.sharepoint.com/:u:/g/personal/s200088111_seu_edu_sa/IQAtJ-jFp65TQJMyScstdD50AXo23RSieTjashL4ESBwcQA?e=ixfTmN)
 
 ## How to Update Data (Step by Step)
 1. Export the new audit data from SmartSheet as `.xlsx`
