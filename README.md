@@ -6,7 +6,7 @@ Automated data cleaning pipeline for Hand Hygiene audit data, connected to a Pow
 # Files
 - `hand_hygiene_cleaning.ipynb` — Google Colab notebook for data cleaning
 - `jan.xlsx` — Combined audit data (connected to Power BI)
-- `Hand_Hygiene_February26.pbix` — Power BI Dashboard
+- `Hand_Hygiene_Dashboard.pbix` — Power BI Dashboard
 
 # Tools Used
 - Python (pandas)
