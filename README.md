@@ -7,6 +7,12 @@
 A fully automated, end-to-end data pipeline that transformed a manual, paper-based Hand Hygiene auditing process into a real-time, zero-touch compliance monitoring system for a hospital with **24 departments** and **6,486 quarterly observations**. The solution covers the entire data lifecycle — from mobile data collection by frontline medical staff to automated cleaning, transformation, and interactive dashboard delivery.
 
 ---
+### Dashboard Preview
+![Overall Compliance](dashboard_overall.png)
+![Worker Category](dashboard_worker.png)
+![Critical Care](dashboard_critical.png)
+
+---
 
 ## The Problem
 | Challenge | Impact |
