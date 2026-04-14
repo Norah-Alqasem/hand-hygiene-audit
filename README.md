@@ -74,8 +74,7 @@ A 10-page Power BI dashboard connected via Gateway that refreshes automatically 
 │                                                                 │
 │  Python Data Cleaning:                                          │
 │  • Restructures 15 repeated columns into 3 clean columns        │
-│  • Deletes rows with missing dates (prevents contamination)     │
-│  • Forward fills Department, Time, and Worker fields            │
+│  • Deletes rows with missing dates (prevents contamination)     │                                                          │
 │  • Maps abbreviations to WHO 5 Moments full text                │
 │  • Strips whitespace and standardizes formatting                │
 │  • Smart merge: keeps historical data, adds only new dates      │
