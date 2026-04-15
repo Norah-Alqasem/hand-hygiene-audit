@@ -1,29 +1,48 @@
-# Hand Hygiene Audit System
-# Automated ETL Pipline & Interactive Power BI Dashboard
+#  Hand Hygiene Compliance Analytics & Automated ETL Pipeline
 
+![Infection Control](https://img.shields.io/badge/Domain-Infection%20Control-blue)
+![Data Analytics](https://img.shields.io/badge/Focus-Data%20Analytics%20%26%20BI-success)
+![Automated Workflow](https://img.shields.io/badge/Status-Fully%20Automated-brightgreen)
 
 ##  Project Overview
-The Hand Hygiene Audit System is a collaborative project developed to streamline and automate the tracking of hand hygiene compliance within healthcare facilities. This project was built in collaboration with [@Manar501](https://github.com/Manar501). 
+The **Hand Hygiene Audit System** is an end-to-end automated data solution designed to monitor, track, and analyze hand hygiene compliance within healthcare facilities. In the realm of Infection Control, accurate and timely data is critical for patient safety. 
 
-While the core repository focuses on the overall application structure, **this specific repository highlights the data analysis, system logic, and Infection Control reporting aspects** of the project.
+This repository highlights the **Data Analytics, ETL architecture, and Business Intelligence** aspects of the project, built in collaboration with [@Manar501](https://github.com/Manar501). It showcases how raw observational data is automatically extracted, transformed, and loaded into an interactive Power BI dashboard to empower healthcare professionals with real-time, actionable insights.
 
-##  My Key Contributions
-In this joint project, my primary focus was bridging the gap between raw data and actionable Infection Control insights:
+##  System Architecture & Workflow
 
-* **Data Processing & Cleaning:** Structuring the raw audit data to ensure accuracy and readiness for advanced reporting.
-* **Workflow Logic:** Designing the logical flow for capturing compliance and non-compliance events based on standard Infection Control guidelines.
-* **Data Visualization:** Preparing datasets to be integrated with visualization tools (e.g., Power BI) to generate comprehensive reports for hospital departments.
+To eliminate manual data entry and reduce reporting delays, we implemented a robust, fully automated workflow:
 
-##  Tools & Technologies
-* **Data Analysis:** [Mention tools like Excel, Python, etc.]
-* **System Logic & Automation:** [Mention tools like Base44, Bubble, etc.]
-* **Reporting:** [Mention if you built dashboards or standard reports]
+1. **Data Collection:** Infection control practitioners record daily observations via customized mobile forms.
+2. **Automated ETL Pipeline:** A scheduled Python script securely connects to the data source API, extracts the latest records, cleans the data, and standardizes it using `pandas`.
+3. **Data Modeling & Visualization:** The cleaned dataset is ingested into Power BI, where custom DAX measures calculate critical compliance KPIs, categorized by worker types and hospital departments.
+4. **Automated Refresh:** The entire system runs on a schedule, ensuring decision-makers always have access to the latest compliance metrics without any manual intervention.
 
-##  Collaborative Effort
-This system is the result of a successful collaboration. You can view the main application repository and my colleague's work here: 
-🔗 [Hand Hygiene Audit by Manar501](https://github.com/Manar501/hand-hygiene-audit)
+##  Key Features & Analytics
+* **Compliance KPIs:** Dynamic calculation of hand hygiene compliance rates based on WHO guidelines.
+* **Granular Filtering:** Interactive Power BI dashboards allowing users to drill down by department, role (e.g., Physician, Nurse), and specific hand hygiene moments.
+* **Worker Type Categorization:** Automated mapping of unstructured job titles into standardized healthcare worker categories using Power Query.
+* **Zero-Touch Automation:** Daily script execution using Windows Task Scheduler integrated with Power BI Gateway for seamless online updates.
 
----
+##  Tools and Technology
+
+| Tool | Purpose |
+| :--- | :--- |
+| **SmartSheet** | Data collection — mobile forms with dropdown validation |
+| **SmartSheet API** | Automated data extraction via Python |
+| **Python 3.13** | ETL script — extraction, cleaning, transformation |
+| **pandas** | Data manipulation and transformation library |
+| **Power BI Desktop** | Dashboard design, DAX measures, Power Query transformations |
+| **Power BI Service** | Online dashboard publishing and sharing |
+| **Power BI Gateway** | Automated scheduled refresh |
+| **Power Query** | Worker type categorization and data shaping |
+| **DAX** | Custom measures for compliance KPIs and dynamic filtering |
+| **Windows Task Scheduler** | Daily automated script execution |
+| **GitHub** | Version control and project documentation |
+
+##  Collaboration & Main Repository
+This analytical pipeline is part of a broader collaborative effort to digitize healthcare quality metrics. 
+🔗 **You can view the main project repository and my colleague's contributions here:** [Hand Hygiene Audit by Manar501](https://github.com/Manar501/hand-hygiene-audit)
 
 ## Authors
 - **Manar** — [GitHub Profile](https://github.com/Manar501)
