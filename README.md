@@ -1,6 +1,6 @@
 #  Hand Hygiene Compliance Analytics & Automated ETL Pipeline
 
-![Infection Control](https://img.shields.io/badge/Domain-Infection%20Control-blue)
+
 ![Data Analytics](https://img.shields.io/badge/Focus-Data%20Analytics%20%26%20BI-success)
 ![Automated Workflow](https://img.shields.io/badge/Status-Fully%20Automated-brightgreen)
 
